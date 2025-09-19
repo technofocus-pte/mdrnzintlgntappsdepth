@@ -1,8 +1,9 @@
-**Lab 7** **- Create an AI-generated site using Copilot**
+# **Lab 7: Create an AI-generated site using Copilot** #
 
 **Estimated Duration:** 15 min
 
-**Objective:** In this lab, you will learn how to create a site with the
+## **Objective:** 
+In this lab, you will learn how to create a site with the
 help of Copilot. You will also learn how to generate a webpage, create a
 form, and add AI generated text to the page.
 
@@ -236,3 +237,4 @@ of Copilot, how Copilot generates the HTML for the page with relevant
 text copy and images from the description. create a form and add AI
 generated text to the page. You also learnt how copilot generates text
 and creates a form based on the given description.
+
