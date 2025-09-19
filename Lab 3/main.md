@@ -1,11 +1,11 @@
-**Lab 3: Use the Power Apps CLI and create Power Apps Component
-Framework (PCF)**
+# **Lab 3: Use the Power Apps CLI and create Power Apps Component Framework (PCF)** #
 
 **Estimated Duration:** 30 min
 
-**Objective:** In this lab, you will learn to install the Power Platform
+## **Objective:** ##
+In this lab, you will learn to install the Power Platform
 Tools and create your first Power Apps Component Framework (PCF)
-component.
+component. 
 
 **Task 1: Install the Power Platform Tools**
 
@@ -427,3 +427,4 @@ component and used it in a canvas app. Power Apps component framework
 creates code components for model-driven and canvas apps. These code
 components can be used to enhance the user experience for users working
 with data on forms, views, dashboards, and canvas app screens.
+
