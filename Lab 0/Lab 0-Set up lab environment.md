@@ -1,4 +1,4 @@
-# **Lab 0 : Set up lab environment** #
+# **Lab 0: Set up lab environment** #
 
 ## **Objective:** ##
 In this lab, you will acquire Power Apps trial license.You will also add users and assign licenses to them at the same time.
@@ -55,5 +55,6 @@ In this lab, you will acquire Power Apps trial license.You will also add users a
 ![](./media/image9.png)
 
 **Summary**: In this lab, you acquired Power Apps trial license.
+
 
 
