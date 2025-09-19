@@ -1,5 +1,7 @@
 # **Lab 10: Create and manage environment using Power Platform Admin Center**
 
+**Estimated Duration:** 20 min
+
 ## **Objective:** ##
 
 In this lab, you will learn how to control who can create and manage environments, enable or disable Administration mode in the Power Platform Admin Center, create a custom security role, and assign it to an administrative user.
@@ -222,5 +224,6 @@ and not have your work affect end users (non-admins)
 creation and management to admins from the Power Platform Admin Center.
 You also learnt how to create security roles, give the privileges and
 assign it to an administrative user.
+
 
 
