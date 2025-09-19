@@ -1,8 +1,9 @@
-**Lab 4 - Install and use developer tools**
+# **Lab 4: Install and use developer tools** #
 
 **Estimated Duration:** 15 min
 
-**Objective:** In this lab, you will learn to install some of the
+## **Objective:** 
+In this lab, you will learn to install some of the
 developer tools from NuGet.
 
 **Task 1: Install developer tools**
@@ -131,3 +132,4 @@ tool**
 tools. When you create your own custom plug-in, you will use Plugin
 Registration Tool to load the assembly and register the steps for the
 events that you want to handle.
+
