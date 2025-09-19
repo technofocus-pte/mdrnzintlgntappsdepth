@@ -2,10 +2,11 @@
 
 **Estimated duration**: 20 min
 
-**Objective**: In this lab, you will learn how to create an app from a
+## **Objective**: ##
+In this lab, you will learn how to create an app from a
 visual design and connect it to data through a few simple, guided steps.
 You will learn to customize the app and learn how to add a Copilot
-control to a canvas app.
+control to a canvas app.    
 
 **Note:** Copilot in Power Apps can generate different app layouts,
 forms, and data connections apps.
@@ -375,3 +376,4 @@ image, how it gets connected to your data stored in the Dataverse and
 how to customize the app. You also learnt how to add Copilot control to
 a canvas app which lets app users get insights about the data in your
 app through natural language conversations with an AI-powered copilot.
+
