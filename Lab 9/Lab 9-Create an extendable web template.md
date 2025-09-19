@@ -1,8 +1,9 @@
-**Lab 9 - Create an extendable web template**
+# **Lab 9: Create an extendable web template**
 
 **Estimated Duration:** 25 min
 
-**Objective:** In this lab, you will learn how to extend Liquid
+## **Objective:** 
+In this lab, you will learn how to extend Liquid
 templates by using extend and block tags, how to reuse Liquid templates
 by using the include tag and how to apply table permissions to the
 results of the new template.
@@ -307,3 +308,4 @@ Your final task is to test your new template:
 **Summary:** In this lab, you have learnt building and extending Liquid
 templates. You built a new page template that includes a side panel that
 lists all accounts in Dataverse.
+
