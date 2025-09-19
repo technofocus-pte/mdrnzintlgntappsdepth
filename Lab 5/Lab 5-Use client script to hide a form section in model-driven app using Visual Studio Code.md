@@ -1,9 +1,9 @@
-**Lab 5: Use client script to hide a form section in model-driven app
-using Visual Studio Code**
+# **Lab 5: Use client script to hide a form section in model-driven app using Visual Studio Code**
 
 **Estimated Duration:** 30 min
 
-**Objective:** In this lab, you will learn how to write client script
+## **Objective:** 
+In this lab, you will learn how to write client script
 for the model-driven app and how to upload your code as a web resource.
 In this lab, client script will perform a case-insensitive search
 for Contoso in the account name in the model-driven form, and if
@@ -399,3 +399,4 @@ to upload it as web resource and to associate it to a form in
 model-driven app to perform a search case-insensitive search
 for Contoso and if present, sets values for the websiteurl, telephone1,
 and description columns in the account form.
+
