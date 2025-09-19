@@ -1,12 +1,11 @@
-**Lab 1: Build a canvas app for a real estate solution with Copilot in
-Power Apps**
+# **Lab 1: Build a canvas app for a real estate solution with Copilot in Power Apps** #
 
 **Estimated duration**: 15 min
 
-**Objective**: In this lab, you will learn to create a custom canvas app
+## **Objective**: In this lab, you will learn to create a custom canvas app
 in Power Apps through conversation with Copilot. You will learn how
 Copilot generates tables, how to customize tables with the help of
-Copilot and how to share an app with the user.
+Copilot and how to share an app with the user. ## 
 
 **Note:** Copilot in Power Apps can generate different app layouts,
 forms, and data connections apps.
@@ -253,3 +252,4 @@ to generate data for the lab and the data changes daily.
 
 **Summary**: In this lab, you learnt how to create a custom canvas app
 using copilot, how to customize and share the app with the user.
+
