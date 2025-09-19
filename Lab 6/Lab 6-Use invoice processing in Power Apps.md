@@ -1,4 +1,4 @@
-# **Lab 6 - Use invoice processing in Power Apps** #
+# **Lab 6: Use invoice processing in Power Apps** #
 
 **Estimated Duration:** 45 min
 
@@ -450,4 +450,5 @@ app in Power Apps. In this lab You learnt how AI models can be used to
 automate document processing and streamline business tasks, providing
 practical experience in leveraging AI Builder for intelligent
 automation.
+
 
