@@ -1,4 +1,4 @@
-**Lab 8: Add advanced client-side functionality to your site**
+# **Lab 8: Add advanced client-side functionality to your site** #
 
 **Task 1: Create site settings**
 
@@ -769,3 +769,4 @@ records.
 15. New sample contact is now added to the list.
 
 ![](./media/image17.png)
+
