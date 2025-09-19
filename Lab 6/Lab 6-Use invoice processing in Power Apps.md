@@ -1,8 +1,9 @@
-**Lab 6 - Use invoice processing in Power Apps**
+# **Lab 6 - Use invoice processing in Power Apps** #
 
 **Estimated Duration:** 45 min
 
-**Objective:** In this lab, you will learn how to create AI model using
+## **Objective:** 
+In this lab, you will learn how to create AI model using
 AI Builder in Power Automate. The model will be trained to extract
 custom information, such as invoice numbers, customer IDs, total
 amounts, and due dates, from documents like invoices. You will learn how
@@ -449,3 +450,4 @@ app in Power Apps. In this lab You learnt how AI models can be used to
 automate document processing and streamline business tasks, providing
 practical experience in leveraging AI Builder for intelligent
 automation.
+
