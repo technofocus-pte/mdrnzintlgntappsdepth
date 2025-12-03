@@ -21,10 +21,10 @@ multiple times a month
 
 **Moderate** - Get access to updates and features at least once a month
 
-To set refresh cadence:
+**To set refresh cadence:**
 
 1.  Browse to the Power Platform admin center
-    at [**https://admin.powerplatform.microsoft.com**](urn:gd:lg:a:send-vm-keys) and
+    at +++ **https://admin.powerplatform.microsoft.com** +++ and
     sign in with your Office 365 tenant credentials. 
 
 2.  From left navigation pane, select **Manage** \> **Environments** and
@@ -224,6 +224,7 @@ and not have your work affect end users (non-admins)
 creation and management to admins from the Power Platform Admin Center.
 You also learnt how to create security roles, give the privileges and
 assign it to an administrative user.
+
 
 
 
