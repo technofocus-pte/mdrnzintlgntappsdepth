@@ -77,8 +77,7 @@ you are accessing through the Web API or require different context of
 accessing the data, the following steps so you how to create a new web
 role and assign table permissions.
 
-1.  Start the [Portal
-    Management app](https://learn.microsoft.com/en-us/power-pages/configure/portal-management-app).
+1.  Start the Portal Management app.
 
 2.  On the left pane, in the **Security** section, select **Web
     Roles** .
@@ -769,5 +768,6 @@ records.
 15. New sample contact is now added to the list.
 
 ![](./media/image17.png)
+
 
 
