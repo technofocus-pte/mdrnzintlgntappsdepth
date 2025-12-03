@@ -32,7 +32,7 @@ to generate data for the lab and the data changes daily.
 
 ![](./media/image2.png)
 
-4.  
+4.  Ensure that you are under **Dev Environment**.
 
 > ![](./media/image3.png)
 
@@ -253,6 +253,7 @@ to generate data for the lab and the data changes daily.
 
 **Summary**: In this lab, you learnt how to create a custom canvas app
 using copilot, how to customize and share the app with the user.
+
 
 
 
