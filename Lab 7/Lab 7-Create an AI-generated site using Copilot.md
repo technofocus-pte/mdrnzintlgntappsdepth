@@ -76,12 +76,12 @@ To use Copilot to generate a webpage:
 2.  Select the Copilot button in the command bar, if the Copilot panel
     is not open already.
 
-> • Type a description of your webpage in the Choose a starter prompt,
+> Type a description of your webpage in the Choose a starter prompt,
 > request an action, or ask a question text field.
 >
 > Sample descriptions:
 >
-> - [**Create a Thank you for visiting our site
+> [**Create a Thank you for visiting our site
 > webpage**](urn:gd:lg:a:send-vm-keys)
 >
 > ![](./media/image9.png)
@@ -237,4 +237,5 @@ of Copilot, how Copilot generates the HTML for the page with relevant
 text copy and images from the description. create a form and add AI
 generated text to the page. You also learnt how copilot generates text
 and creates a form based on the given description.
+
 
