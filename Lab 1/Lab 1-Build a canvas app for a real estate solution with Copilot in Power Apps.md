@@ -20,7 +20,7 @@ in the screenshots and images. The reason is because Power Apps uses AI
 to generate data for the lab and the data changes daily.
 
 1.  Sign into the Power
-    Apps +++[*https://make.powerapps.com/+++ using*](https://make.powerapps.com/+++%C2%A0using) your
+    Apps +++[*https://make.powerapps.com/*](https://make.powerapps.com/+++%C2%A0using)+++ using your
     Office 365 tenant credentials.
 
 2.  Select **Environment** **selector** to change it to developer
@@ -253,6 +253,7 @@ to generate data for the lab and the data changes daily.
 
 **Summary**: In this lab, you learnt how to create a custom canvas app
 using copilot, how to customize and share the app with the user.
+
 
 
 
