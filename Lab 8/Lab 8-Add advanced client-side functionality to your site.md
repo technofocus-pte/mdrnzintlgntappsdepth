@@ -7,7 +7,7 @@ site settings with the Portal Management app. The site settings depend
 on the table that you want to use when interacting with the Web API.
 
 1.  Sign in to Power Pages
-    +++\*\*<https://make.powerpages.microsoft.com/**+++>. If your site
+    +++ **<https://make.powerpages.microsoft.com/>** +++. If your site
     is already open, you can skip Steps 1 through 3.
 
 2.  Select the target environment **Dev One** in the upper-right corner.
@@ -769,4 +769,5 @@ records.
 15. New sample contact is now added to the list.
 
 ![](./media/image17.png)
+
 
