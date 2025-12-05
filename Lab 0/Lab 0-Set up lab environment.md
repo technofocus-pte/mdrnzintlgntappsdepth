@@ -41,8 +41,7 @@ In this lab, you will acquire Power Apps trial license.You will also add users a
     required, sign in using your given Office 365 admin tenant
     credentials.
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image7.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image7.png)
 
 8.  From the left navigation pane, select **Manage** \> **Environments**
     and then you can see, **Dev One** is your Dataverse environment.
@@ -52,9 +51,10 @@ In this lab, you will acquire Power Apps trial license.You will also add users a
 9.  Review that the Dataverse environment has been changed to **Dev One
     Environment**.
 
-![](./media/image9.png)
+    ![](./media/image9.png)
 
 **Summary**: In this lab, you acquired Power Apps trial license.
+
 
 
 
