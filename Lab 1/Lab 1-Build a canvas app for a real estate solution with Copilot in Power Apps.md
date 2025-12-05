@@ -212,7 +212,7 @@ to generate data for the lab and the data changes daily.
 
     ![](./media/image32.png)
 
-2.  Type +++Brooke+++ and then select **Brooke Gray** from the
+2.  Type +++**Brooke**+++ and then select **Brooke Gray** from the
     suggestions.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image33.png)
@@ -227,12 +227,12 @@ to generate data for the lab and the data changes daily.
 
 5.  Open the link in the new tab and sign in with Brooke Gray’s email
     ID. Open a new browser, paste the above link and sign in with
-    Brooke's credentials and then you can see the app.
+    Brooke's credentials to see the app.
 
     **Note**: Open the Outlook account of the Brooke Gray with Login id
-    - [*+++brookeg@LODSA7xxxxx.onmicrosoft.com*](mailto:+++brookeg@LODSA7xxxxx.onmicrosoft.com)+++
-    (**change the domain name** in login id) and Password –
-    +++Pa$$w0rd@124+++.
+    +++[**brookeg@LODSA7xxxxx.onmicrosoft.com**](mailto:+++brookeg@LODSA7xxxxx.onmicrosoft.com)+++
+    (change the domain name in login id) and use the Password as
+    +++**Pa$$w0rd@124**+++.
     
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image36.png)
 
@@ -242,5 +242,6 @@ to generate data for the lab and the data changes daily.
 
 **Summary**: In this lab, you learnt how to create a custom canvas app
 using copilot, how to customize and share the app with the user.
+
 
 
