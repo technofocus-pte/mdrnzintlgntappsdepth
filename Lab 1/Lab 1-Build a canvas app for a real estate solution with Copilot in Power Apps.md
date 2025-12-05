@@ -67,7 +67,7 @@ to generate data for the lab and the data changes daily.
 
     Your next steps are to modify and add to the already generated table.
 
-11. Check if **Feedback** column is present in the **Showing** table. If
+12. Check if **Feedback** column is present in the **Showing** table. If
     yes then go to the next step, if no then select
     the **Showing** table, enter the below prompt in the copilot pane
     and click on the **Send** button.
@@ -76,7 +76,7 @@ to generate data for the lab and the data changes daily.
 
     ![](./media/image9.png)
 
-12. Now click on the **Showing table** and then in the text box, in the
+13. Now click on the **Showing table** and then in the text box, in the
     lower part of the Copilot pane to the right of the screen, enter the
     following text and select the **Send** button.
 
@@ -86,7 +86,7 @@ to generate data for the lab and the data changes daily.
 
     ![](./media/image11.png)
 
-13. Now click on the **Showing table** and then in the text box, in the
+14. Now click on the **Showing table** and then in the text box, in the
     lower part of the Copilot pane to the right of the screen, enter the
     following text:
 
@@ -230,18 +230,19 @@ to generate data for the lab and the data changes daily.
     Brooke's credentials to see the app.
 
     **Note**: Open the Outlook account of the Brooke Gray with Login id
-    +++[**brookeg@LODSA7xxxxx.onmicrosoft.com**](mailto:+++brookeg@LODSA7xxxxx.onmicrosoft.com)+++
-    (change the domain name in login id) and use the Password as
-    +++**Pa$$w0rd@124**+++.
+    +++**brookeg@LODSA7xxxxx.onmicrosoft.com**(mailto:+++brookeg@LODSA7xxxxx.onmicrosoft.com)+++
+    (change the domain name in login id)
+    and use the Password as +++**Pa$$w0rd@124**+++.
     
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image36.png)
 
-6.  Select **Showings** screen.
+7.  Select **Showings** screen.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image37.png)
 
 **Summary**: In this lab, you learnt how to create a custom canvas app
 using copilot, how to customize and share the app with the user.
+
 
 
 
