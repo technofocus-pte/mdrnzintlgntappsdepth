@@ -65,7 +65,7 @@ to generate data for the lab and the data changes daily.
 
     ![](./media/image8.png)
 
-> Your next steps are to modify and add to the already generated table.
+    Your next steps are to modify and add to the already generated table.
 
 11. Check if **Feedback** column is present in the **Showing** table. If
     yes then go to the next step, if no then select
@@ -242,6 +242,7 @@ to generate data for the lab and the data changes daily.
 
 **Summary**: In this lab, you learnt how to create a custom canvas app
 using copilot, how to customize and share the app with the user.
+
 
 
 
