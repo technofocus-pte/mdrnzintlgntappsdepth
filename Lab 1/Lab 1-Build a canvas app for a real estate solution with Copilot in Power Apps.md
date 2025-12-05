@@ -54,16 +54,16 @@ to generate data for the lab and the data changes daily.
 8.  Copilot creates one or more Dataverse tables with data that includes
     typical real estate tasks.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image6.png)
+    ![](./media/image6.png)
 
 9.  To see more information, click on three dots of
     the **Showing** table and select **View data**.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image7.png)
+    ![](./media/image7.png)
 
 10. You can now see the columns on the **Showing** table.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image8.png)
+    ![](./media/image8.png)
 
 > Your next steps are to modify and add to the already generated table.
 
@@ -74,7 +74,7 @@ to generate data for the lab and the data changes daily.
 
 > +++**Add the Feedback column**+++
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image9.png)
+    ![](./media/image9.png)
 
 12. Now click on the **Showing table** and then in the text box, in the
     lower part of the Copilot pane to the right of the screen, enter the
@@ -103,7 +103,7 @@ to generate data for the lab and the data changes daily.
 
 15. Again, select **Save and open app** on **Done working?** pane.
 
-    ![A screenshot of a computer Description automatically generated](./media/image14.png)
+    ![](./media/image14.png)
 
 16. When the app first loads, a dialog might appear stating “**Welcome
     to Power Apps Studio”**. If so, select the **Skip** button.
@@ -116,7 +116,7 @@ to generate data for the lab and the data changes daily.
 
 18. For a better view, close the Copliot pane.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image17.png)
+    ![](./media/image17.png)
 
 19. Select the **Data** icon from the left navigation bar. Copilot has
     created a **Dataverse** table that's now displaying in
@@ -146,7 +146,7 @@ to generate data for the lab and the data changes daily.
 23. Give the app name as +++**Real Estate Showings**+++ and
     select **Save**.
 
-    ![A purple rectangle with a red rectangle AI-generated content may be incorrect.](./media/image22.png)
+    ![](./media/image22.png)
 
 **Task 2: Test the app**
 
@@ -241,3 +241,4 @@ to generate data for the lab and the data changes daily.
 
 **Summary**: In this lab, you learnt how to create a custom canvas app
 using copilot, how to customize and share the app with the user.
+
