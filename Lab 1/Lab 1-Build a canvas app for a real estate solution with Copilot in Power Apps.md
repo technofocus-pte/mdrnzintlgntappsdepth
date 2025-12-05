@@ -196,7 +196,7 @@ to generate data for the lab and the data changes daily.
 
     ![](./media/image29.png)
 
-8.  Select **\<- Back** to go back on the home page.
+8.  Select **<- Back** to go back on the home page.
 
     ![](./media/image30.png)
 
@@ -230,7 +230,7 @@ to generate data for the lab and the data changes daily.
     Brooke's credentials to see the app.
 
     **Note**: Open the Outlook account of the Brooke Gray with Login id
-    +++**brookeg@LODSA7xxxxx.onmicrosoft.com**(mailto:+++brookeg@LODSA7xxxxx.onmicrosoft.com)+++
+    +++**brookeg@LODSA7xxxxx.onmicrosoft.com**+++
     (change the domain name in login id)
     and use the Password as +++**Pa$$w0rd@124**+++.
     
@@ -242,8 +242,6 @@ to generate data for the lab and the data changes daily.
 
 **Summary**: In this lab, you learnt how to create a custom canvas app
 using copilot, how to customize and share the app with the user.
-
-
 
 
 
