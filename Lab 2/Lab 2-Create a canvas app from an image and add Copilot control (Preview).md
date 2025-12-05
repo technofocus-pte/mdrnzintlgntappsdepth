@@ -133,11 +133,11 @@ forms, and data connections apps.
 
 1.  Select **App** from the **Tree view**.
 
-![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
 
 2.  Select **Formulas** from the property selector.
 
-![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.png)
 
 3.  Write the given formulas to store background color of text label and
     the button color into the variables.
@@ -361,5 +361,6 @@ image, how it gets connected to your data stored in the Dataverse and
 how to customize the app. You also learnt how to add Copilot control to
 a canvas app which lets app users get insights about the data in your
 app through natural language conversations with an AI-powered copilot.
+
 
 
