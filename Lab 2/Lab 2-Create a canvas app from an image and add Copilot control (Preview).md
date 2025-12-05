@@ -133,92 +133,92 @@ forms, and data connections apps.
 
 1.  Select **App** from the **Tree view**.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image14.png)
+    ![](./media/image14.png)
 
 2.  Select **Formulas** from the property selector.
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image15.png)
+    ![](./media/image15.png)
 
 3.  Write the given formulas to store background color of text label and
     the button color into the variables.
 
-    *BGColor = RGBA(0, 120, 212, 1);*
+    **BGColor = RGBA(0, 120, 212, 1);**
 
-    *ButtonColor = RGBA(0, 120, 212, 1);*
+    **ButtonColor = RGBA(0, 120, 212, 1);**
 
-    ![](./media/image16.png)
+     ![](./media/image16.png)
 
-4.  From the **Tree view**, select **Textlabel8** under the **Screen1**.
+5.  From the **Tree view**, select **Textlabel8** under the **Screen1**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image17.png)
 
-5.  In the Property selector, select the **Fill** property of Text
+6.  In the Property selector, select the **Fill** property of Text
     label, delete the existing color value and enter the value –
     **BGColor**. Note that, BGColor contains the color value.
 
     ![](./media/image18.png)
 
-6.  Adjust the width of Membership Form **Text label** as shown in the
+7.  Adjust the width of Membership Form **Text label** as shown in the
     image.
 
     ![](./media/image19.png)
 
-7.  Select the **Text label** and change the alignment to center. If
+8.  Select the **Text label** and change the alignment to center. If
     **Align** option is not visible, click the ellipsis (…) icon next to
     the font type selector.
 
     ![](./media/image20.png)
 
-8.  Select the **Button1 (Select response)** on the canvas and move it
+9.  Select the **Button1 (Select response)** on the canvas and move it
     to the center of the form.
 
     ![](./media/image21.png)
 
-9.  To add new screen to the app, select **+New screen** from the Tree
+10.  To add new screen to the app, select **+New screen** from the Tree
     view. Select **Success** screen.
 
     ![](./media/image22.png)
 
-10. Double click on the **Success message** and change it to “**Your
+11. Double click on the **Success message** and change it to “**Your
     response submitted successfully**”.
 
     ![](./media/image23.png)
 
-11. To add Text label, select **+Insert \> Text label**.
+12. To add Text label, select **+Insert \> Text label**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image24.png)
 
-12. Move the **Text label** below the success message and change the
+13. Move the **Text label** below the success message and change the
     **Text** property of the label to "**If you need more information,
     kindly click on below Copilot button**".
 
     ![](./media/image25.png)
 
-13. Change the **Font** of the label to **Segoe UI**, **Font size –
+14. Change the **Font** of the label to **Segoe UI**, **Font size –
     21**, **center alignment** and resize the label as shown in the
     image below.
 
     ![](./media/image26.png)
 
-14. Select **+Insert \> Button**.
+15. Select **+Insert \> Button**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image27.png)
 
-15. Move the button below the text label. Double click on the button and
+16. Move the button below the text label. Double click on the button and
     change the **Text property** of it to “**Copilot**”.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image28.png)
 
-16. To add one more screen to the app, select **+New screen \> Blank**.
+17. To add one more screen to the app, select **+New screen \> Blank**.
 
     ![](./media/image29.png)
 
-17. To add navigation path to each screen, select **Screen1** from the
+18. To add navigation path to each screen, select **Screen1** from the
     Tree view.
 
     ![](./media/image30.png)
 
-18. Select **Submit response button** on Screen1. Add following formula
+19. Select **Submit response button** on Screen1. Add following formula
     to the existing formula of OnSelect property of the button.
 
     **Note**: Ensure that, the existing formula is ended with semicolon
@@ -228,18 +228,18 @@ forms, and data connections apps.
     
     ![](./media/image31.png)
 
-19. Now, select **Screen2**.
+20. Now, select **Screen2**.
 
     ![](./media/image32.png)
 
-20. Select **Copilot button** and change its **OnSelect** property to
+21. Select **Copilot button** and change its **OnSelect** property to
     the given formula.
 
     *Navigate(Screen3);*
     
     ![](./media/image33.png)
 
-21. Select the **Fill** property of the button and replace it with the
+22. Select the **Fill** property of the button and replace it with the
     **ButtonColor**.
 
     **Note:** ButtonColor is the Named variable which contains color
@@ -247,7 +247,7 @@ forms, and data connections apps.
     
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image34.png)
 
-22. Save the app.
+23. Save the app.
 
     ![](./media/image35.png)
 
@@ -361,6 +361,7 @@ image, how it gets connected to your data stored in the Dataverse and
 how to customize the app. You also learnt how to add Copilot control to
 a canvas app which lets app users get insights about the data in your
 app through natural language conversations with an AI-powered copilot.
+
 
 
 
