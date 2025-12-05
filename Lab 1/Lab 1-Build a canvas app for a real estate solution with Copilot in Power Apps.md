@@ -43,9 +43,9 @@ to generate data for the lab and the data changes daily.
 
 6.  Enter the following prompt to search for an AI-generated table:
 
-> +++**Build an app to manage real estate showings**+++
->
-> Select the **Generate** button.
+    +++**Build an app to manage real estate showings**+++
+    
+    Select the **Generate** button.
 
     ![](./media/image5.png)
 
@@ -72,7 +72,7 @@ to generate data for the lab and the data changes daily.
     the **Showing** table, enter the below prompt in the copilot pane
     and click on the **Send** button.
 
-> +++**Add the Feedback column**+++
+    +++**Add the Feedback column**+++
 
     ![](./media/image9.png)
 
@@ -80,9 +80,9 @@ to generate data for the lab and the data changes daily.
     lower part of the Copilot pane to the right of the screen, enter the
     following text and select the **Send** button.
 
-> +++**Rename Feedback column as Details** **in Showing Table**+++
->
-> This will rename Feedback column as Details in the showings table.
+    +++**Rename Feedback column as Details** **in Showing Table**+++
+    
+    This will rename Feedback column as Details in the showings table.
 
     ![](./media/image11.png)
 
@@ -90,42 +90,43 @@ to generate data for the lab and the data changes daily.
     lower part of the Copilot pane to the right of the screen, enter the
     following text:
 
-> +++**In showing table add a new column as client full name**+++
->
-> This will add a column in the showings table. Select
-> the **Send** button.
+    +++**In showing table add a new column as client full name**+++
+    
+    This will add a column in the showings table.
+
+    Now, select the **Send** button.
 
     ![](./media/image12.png)
 
-14. Select **Save and open app**.
+15. Select **Save and open app**.
 
     ![](./media/image13.png)
 
-15. Again, select **Save and open app** on **Done working?** pane.
+16. Again, select **Save and open app** on **Done working?** pane.
 
     ![](./media/image14.png)
 
-16. When the app first loads, a dialog might appear stating “**Welcome
+17. When the app first loads, a dialog might appear stating “**Welcome
     to Power Apps Studio”**. If so, select the **Skip** button.
 
     ![](./media/image15.png)
 
-17. The app that has been built for you should show in **Edit** mode.
+18. The app that has been built for you should show in **Edit** mode.
 
     ![](./media/image16.png)
 
-18. For a better view, close the Copliot pane.
+19. For a better view, close the Copliot pane.
 
     ![](./media/image17.png)
 
-19. Select the **Data** icon from the left navigation bar. Copilot has
+20. Select the **Data** icon from the left navigation bar. Copilot has
     created a **Dataverse** table that's now displaying in
     the **Environments** section.
 
     ![](./media/image18.png)
 
-> **Note**: Currently, Copilot is only supported for Dataverse. You
-> can't use any other data access point at this time.
+    **Note**: Currently, Copilot is only supported for Dataverse. You
+    can't use any other data access point at this time.
 
 20. Select the **Tree view** from the left navigation bar. You can see
     the **Welcome screen** is opened in the canvas and other remaining
@@ -162,19 +163,19 @@ to generate data for the lab and the data changes daily.
 3.  Fill in the fields with the following information and then select
     the check mark in the upper-right corner of the screen.
 
-> **Showing:** +++Showing 6+++
->
-> **Showing Date:** Enter any future date
->
-> **Time:** 09:00
->
-> **Agent Name:** Select any from the suggestions.
->
-> **Details:** +++Spacious+++
->
-> **Property:** Select any from the suggestions.
+    **Showing:** +++Showing 6+++
+    
+    **Showing Date:** Enter any future date
 
-    ![A screenshot of a computer AI-generated content may be incorrect.](./media/image25.png)
+    **Time:** 09:00
+    
+    **Agent Name:** Select any from the suggestions.
+    
+    **Details:** +++Spacious+++
+    
+    **Property:** Select any from the suggestions.
+
+    ![](./media/image25.png)
 
 4.  To close the test window, select cross mark at the top right corner
     of the screen.
@@ -228,11 +229,11 @@ to generate data for the lab and the data changes daily.
     ID. Open a new browser, paste the above link and sign in with
     Brooke's credentials and then you can see the app.
 
-> **Note**: Open the Outlook account of the Brooke Gray with Login id
-> - [*+++brookeg@LODSA7xxxxx.onmicrosoft.com*](mailto:+++brookeg@LODSA7xxxxx.onmicrosoft.com)+++
-> (**change the domain name** in login id) and Password –
-> +++Pa$$w0rd@124+++.
->
+    **Note**: Open the Outlook account of the Brooke Gray with Login id
+    - [*+++brookeg@LODSA7xxxxx.onmicrosoft.com*](mailto:+++brookeg@LODSA7xxxxx.onmicrosoft.com)+++
+    (**change the domain name** in login id) and Password –
+    +++Pa$$w0rd@124+++.
+    
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image36.png)
 
 6.  Select **Showings** screen.
@@ -241,4 +242,5 @@ to generate data for the lab and the data changes daily.
 
 **Summary**: In this lab, you learnt how to create a custom canvas app
 using copilot, how to customize and share the app with the user.
+
 
