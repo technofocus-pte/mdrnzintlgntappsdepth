@@ -169,9 +169,11 @@ role and assign table permissions.
 8.  Copy the following sample code snippet and paste it in between
     the \<div\>\</div\> tags of the page section.
 
-    \<!-- Sample code for Web API demonstration --\>
-    
-    ` ` `
+    **Sample code for Web API 
+    demonstration**
+
+ ` ` 
+
     \<style\>
     
     \#processingMsg {
@@ -743,9 +745,9 @@ role and assign table permissions.
     
     \<div id="dataTable"\>\</div\>
 
-    ` ` `
+  ` ` 
     
-    ![Paste code.](./media/image15.png)
+![Paste code.](./media/image15.png)
 
 10.  Click **CTRL-S** to save the code. Close the **Visual Studio Code**
     tab.
