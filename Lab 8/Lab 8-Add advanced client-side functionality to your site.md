@@ -171,6 +171,7 @@ role and assign table permissions.
 
     \<!-- Sample code for Web API demonstration --\>
     
+    ` ` `
     \<style\>
     
     \#processingMsg {
@@ -422,7 +423,6 @@ role and assign table permissions.
      }
 
      function bindRowEvents(tr, config) {
-
    
      var $row = $(tr),
 
@@ -742,6 +742,8 @@ role and assign table permissions.
     role="alert"\>\</div\>
     
     \<div id="dataTable"\>\</div\>
+
+    ` ` `
     
     ![Paste code.](./media/image15.png)
 
@@ -765,6 +767,7 @@ role and assign table permissions.
 16. New sample contact is now added to the list.
 
     ![](./media/image17.png)
+
 
 
 
