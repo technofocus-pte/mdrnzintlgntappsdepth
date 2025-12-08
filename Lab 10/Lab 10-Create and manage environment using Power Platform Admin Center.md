@@ -43,15 +43,15 @@ multiple times a month
     
     **Note:**
 
-- By default, environments are automatically in
-  the **frequent** cadence; creating and editing canvas apps will
-  receive updates once a week. When apps are published, they will
-  receive the corresponding runtime version.
+    - By default, environments are automatically in
+      the **frequent** cadence; creating and editing canvas apps will
+      receive updates once a week. When apps are published, they will
+      receive the corresponding runtime version.
 
-- If you've chosen the **moderate** cadence for the environment, all
-  creating and editing of canvas apps will receive updates once a month.
-  When apps are published, they will receive the corresponding runtime
-  version.
+    - If you've chosen the **moderate** cadence for the environment, all
+      creating and editing of canvas apps will receive updates once a month.
+      When apps are published, they will receive the corresponding runtime
+      version.
 
 ### **Task 2: Control who can create and manage environments in the Power Platform admin center**
 
@@ -74,12 +74,12 @@ multiple times a month
 
 ### **Task 3: Administration mode**
 
-You can set a sandbox, production, or trial (subscription-based)
-environment in administration mode so that only users with System
-Administrator or System Customizer security roles will be able to sign
-in to that environment. Administration mode is useful when you want to
-make operational changes and not have regular users affect your work,
-and not have your work affect end users (non-admins)
+    You can set a sandbox, production, or trial (subscription-based)
+    environment in administration mode so that only users with System
+    Administrator or System Customizer security roles will be able to sign
+    in to that environment. Administration mode is useful when you want to
+    make operational changes and not have regular users affect your work,
+    and not have your work affect end users (non-admins)
 
 1.  From the left-side menu, select **Manage** \> **Environments**, and
     then select your **Dev One** environment.
@@ -205,10 +205,10 @@ and not have your work affect end users (non-admins)
 
     ![A screenshot of a computer error Description automatically generated](./media/image25.png)
 
-**Summary:** In this lab, you learnt how to restrict environment
-creation and management to admins from the Power Platform Admin Center.
-You also learnt how to create security roles, give the privileges and
-assign it to an administrative user.
+    **Summary:** In this lab, you learnt how to restrict environment
+    creation and management to admins from the Power Platform Admin Center.
+    You also learnt how to create security roles, give the privileges and
+    assign it to an administrative user.
 
 
 
