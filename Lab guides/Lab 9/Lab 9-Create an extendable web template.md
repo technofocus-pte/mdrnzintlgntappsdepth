@@ -11,13 +11,13 @@ results of the new template.
 **Note:** Copilot in Power Apps can generate different app layouts,
 forms, and data connections apps.
 
-**Task 1: Create a partial template**
+### **Task 1: Create a partial template**
 
 Your first task is to create a partial template that won't be used to
 render a page but will instead be inserted into another template.
 
 1.  Sign in to Power Pages
-    +++\*\*[*https://make.powerpages.microsoft.com/\*\*+++*](https://make.powerpages.microsoft.com/**+++).
+    +++https://make.powerpages.microsoft.com/+++.
     If your site is already open, you can skip Steps 1 through 3.
 
 2.  Select the target environment **Dev One** in the upper-right corner.
@@ -52,46 +52,50 @@ render a page but will instead be inserted into another template.
 
     - **Source** - Enter the following content:
 
+    '''
+
     {% fetchxml accounts %}
     
-    \<fetch\>
+    <fetch>
     
-    \<entity name="account"\>
+    <entity name="account">
     
-    \<attribute name="name" /\>
+    <attribute name="name" />
     
-    \</entity\>
+    </entity>
     
-    \</fetch\>
+    </fetch>
     
     {% endfetchxml %}
     
     {% if accounts.global_permission_granted %}
     
-    \<ul\>
+    <ul>
     
     {% for account in accounts.results.entities %}
     
-    \<li\>{{ account.name }}\</li\>
+    <li>{{ account.name }}</li>
     
     {%- endfor -%}
     
-    \</ul\>
+    </ul>
     
     {% else %}
     
-    \<div class="alert alert-warning"\>You do not have permissions to
-    access the directory.\</div\>
+    <div class="alert alert-warning">You do not have permissions to
+    access the directory.</div>
     
     {% endif %}
-    
+
+    '''
+
     ![A screenshot of a computer Description automatically generated](./media/image6.png)
 
-8.  Select **Save & Close**.
+7.  Select **Save & Close**.
 
     ![A screenshot of a computer Description automatically generated](./media/image7.png)
 
-**Task 2: Extend an existing template**
+### **Task 2: Extend an existing template**
 
     Next, you'll create a new template that extends an existing Liquid
     template and then insert the template that you previously created.
@@ -111,19 +115,23 @@ render a page but will instead be inserted into another template.
 
     - **Source** - Enter the following content:
 
+    '''
+
     {% extends "Layout 2 Column Wide Left" %}
     
     {% block aside %}
     
-    \<h2\>Directory\</h2\>
+        <h2>Directory</h2>
     
-    {% include 'Directory' %}
+        {% include 'Directory' %}
     
     {% endblock %}
-    
+
+    '''
+
     ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
-3.  Select **Save & Close**.
+2.  Select **Save & Close**.
 
     ![A screenshot of a web template Description automatically generated](./media/image10.png)
 
@@ -174,11 +182,11 @@ Your next step is to test that your new template works:
 
 6.  In the **Add a page** dialog, complete the following steps:
 
-    a\. Enter +++**Directory**+++ as the page name.
+    a. Enter +++**Directory**+++ as the page name.
 
-    b\. Select **Custom layouts** and then select **Directory Page Template**.
+    b. Select **Custom layouts** and then select **Directory Page Template**.
     
-    c\. Select **Add**.
+    c. Select **Add**.
 
     ![A screenshot of a website Description automatically generated](./media/image16.png)
     
@@ -187,7 +195,7 @@ Your next step is to test that your new template works:
     
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image17.png)
 
-**Task 5: Add table permissions**
+### **Task 5: Add table permissions**
 
 **Warning:** Granting global read permission to anonymous users is for
 illustrative purposes only. Exercise caution to avoid unintentionally
@@ -232,7 +240,7 @@ Follow these steps to add table permissions.
 
     ![A screenshot of a computer error message Description automatically generated](./media/image25.png)
 
-**Task 6: Test the template**
+### **Task 6: Test the template**
 
     Your final task is to test your new template:
 
@@ -256,4 +264,5 @@ Follow these steps to add table permissions.
 **Summary:** In this lab, you have learnt building and extending Liquid
 templates. You built a new page template that includes a side panel that
 lists all accounts in Dataverse.
+
 
