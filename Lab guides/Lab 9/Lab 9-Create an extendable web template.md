@@ -115,19 +115,19 @@ render a page but will instead be inserted into another template.
 
     - **Source** - Enter the following content:
 
-    '''
+   ``` 
 
-    {% extends "Layout 2 Column Wide Left" %}
-    
-    {% block aside %}
-    
-        <h2>Directory</h2>
-    
-        {% include 'Directory' %}
-    
-    {% endblock %}
+        {% extends "Layout 2 Column Wide Left" %}
+        
+        {% block aside %}
+        
+            <h2>Directory</h2>
+        
+            {% include 'Directory' %}
+        
+        {% endblock %}
 
-    '''
+    ``` 
 
     ![A screenshot of a computer Description automatically generated](./media/image9.png)
 
@@ -135,7 +135,7 @@ render a page but will instead be inserted into another template.
 
     ![A screenshot of a web template Description automatically generated](./media/image10.png)
 
-**Task 3: Create a page template and associate with that page**
+### **Task 3: Create a page template and associate with that page**
 
 In this task, you'll create a page template that uses your new web
 template and will include the Directory output.
@@ -161,7 +161,7 @@ template and will include the Directory output.
 
     ![A screenshot of a web page Description automatically generated](./media/image12.png)
 
-**Task 4: Test the page template**
+### **Task 4: Test the page template**
 
 Your next step is to test that your new template works:
 
@@ -182,7 +182,7 @@ Your next step is to test that your new template works:
 
 6.  In the **Add a page** dialog, complete the following steps:
 
-    a. Enter +++**Directory**+++ as the page name.
+    a. Enter +++Directory+++ as the page name.
 
     b. Select **Custom layouts** and then select **Directory Page Template**.
     
@@ -224,7 +224,7 @@ Follow these steps to add table permissions.
       
     - **Permission to** - Select **Read**
 
-    ![](./media/image20.png)
+   ![](./media/image20.png)
 
 4.  Select **Add roles**.
 
@@ -247,7 +247,7 @@ Follow these steps to add table permissions.
 1.  Select the **Pages** workspace and then select
     the **Directory** page.
 
-    ![A screenshot of a computer Description automatically generated](./media/image26.png)
+      ![A screenshot of a computer Description automatically generated](./media/image26.png)
 
 2.  Select **Preview | Desktop**.
 
@@ -264,6 +264,7 @@ Follow these steps to add table permissions.
 **Summary:** In this lab, you have learnt building and extending Liquid
 templates. You built a new page template that includes a side panel that
 lists all accounts in Dataverse.
+
 
 
 
