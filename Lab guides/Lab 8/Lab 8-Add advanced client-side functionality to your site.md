@@ -1,13 +1,13 @@
 # **Lab 8: Add advanced client-side functionality to your site** #
 
-**Task 1: Create site settings**
+### **Task 1: Create site settings**
 
 Before you can use the portals Web API, you have to enable the required
 site settings with the Portal Management app. The site settings depend
 on the table that you want to use when interacting with the Web API.
 
 1.  Sign in to Power Pages
-    +++ **<https://make.powerpages.microsoft.com/>** +++. If your site
+    +++https://make.powerpages.microsoft.com/+++. If your site
     is already open, you can skip Steps 1 through 3.
 
 2.  Select the target environment **Dev One** in the upper-right corner.
@@ -29,11 +29,11 @@ on the table that you want to use when interacting with the Web API.
 
 6.  Select **New**.
 
-7.  In the **Name** box, enter **Webapi/contact/enabled**.
+7.  In the **Name** box, enter +++Webapi/contact/enabled+++.
 
 8.  In the **Website** list, select your website record.
 
-9.  In the **Value** box, enter **true**.
+9.  In the **Value** box, enter +++true+++.
 
     ![Enable contact table for WebAPI site setting. ](./media/image4.png)
 
@@ -41,12 +41,12 @@ on the table that you want to use when interacting with the Web API.
 
 11. Select **New**.
 
-12. In the **Name** box, enter **Webapi/contact/fields**.
+12. In the **Name** box, enter +++Webapi/contact/fields+++.
 
 13. In the **Website** list, select your website record.
 
 14. In the **Value** box, enter  
-    **firstname,lastname,fullname,emailaddress1,telephone1**
+    +++firstname,lastname,fullname,emailaddress1,telephone1+++
 
     ![Enable Web API contact table fields site setting.](./media/image5.png)
 
@@ -54,19 +54,19 @@ on the table that you want to use when interacting with the Web API.
 
 16. Select **New**.
 
-17. In the **Name** box, enter **Webapi/error/innererror**.
+17. In the **Name** box, enter +++Webapi/error/innererror+++.
 
     ![Enable Web API inner error site setting. ](./media/image6.png)
 
 18. In the **Website** list, select your website record.
 
-19. In the **Value** box, enter **true**.
+19. In the **Value** box, enter +++true+++.
 
 20. Select **Save & Close**.
 
 21. Verify the site settings for **Web API**.
 
-**Task 2: Create a web role**
+### **Task 2: Create a web role**
 
 If you currently do not have a web role with permissions to the table
 you are accessing through the Web API or require different context of
@@ -769,6 +769,7 @@ role and assign table permissions.
 16. New sample contact is now added to the list.
 
     ![](./media/image17.png)
+
 
 
 
