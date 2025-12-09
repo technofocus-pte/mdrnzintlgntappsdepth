@@ -24,10 +24,10 @@ multiple times a month
 **To set refresh cadence:**
 
 1.  Browse to the Power Platform admin center
-    at +++ **https://admin.powerplatform.microsoft.com** +++ and
+    at +++https://admin.powerplatform.microsoft.com+++ and
     sign in with your Office 365 tenant credentials. 
 
-2.  From left navigation pane, select **Manage** \> **Environments** and
+2.  From left navigation pane, select **Manage** > **Environments** and
     then click on the **Dev One** environment.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image1.png)
@@ -81,7 +81,7 @@ multiple times a month
     make operational changes and not have regular users affect your work,
     and not have your work affect end users (non-admins)
 
-1.  From the left-side menu, select **Manage** \> **Environments**, and
+1.  From the left-side menu, select **Manage** > **Environments**, and
     then select your **Dev One** environment.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image1.png)
@@ -107,19 +107,19 @@ multiple times a month
 ### **Task 1 - Create a new custom security role that only has access to "Security Role" table**
 
 1.  Open a new tab and navigate
-    to [**https://make.powerapps.com**](urn:gd:lg:a:send-vm-keys). If
+    to +++https://make.powerapps.com+++. If
     required, sign in with your Office 365 tenant credentials.
 
 2.  Select your **Dev One** environment.
 
     ![](./media/image11.png)
 
-3.  Select your environment and click on **Settings** \> **Advanced
+3.  Select your environment and click on **Settings** > **Advanced
     Settings**.
 
     ![](./media/image12.png)
 
-4.  **Dynamics 365** opens in separate tab. Click on **Settings \>
+4.  **Dynamics 365** opens in separate tab. Click on **Settings >
     Options.**
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image13.png)
@@ -136,7 +136,7 @@ multiple times a month
     ![](./media/image15.png)
 
 7.  Go back to **Power Platform admin center** tab. From the left-side
-    menu, select **Manage** \> **Environments**, and then select your
+    menu, select **Manage** > **Environments**, and then select your
     **Dev One** environment.
 
 8.  Select the **Gear** icon in the upper-right corner
@@ -147,7 +147,7 @@ multiple times a month
 
     ![](./media/image16.png)
 
-10. Click on **Users + permissions \> Security roles.**
+10. Click on **Users + permissions > Security roles.**
 
     ![](./media/image17.png)
 
@@ -156,7 +156,7 @@ multiple times a month
     ![](./media/image18.png)
 
 12. In the **Role Name** field, enter a name for the new role -
-    **Security update**. In the **Business unit** field, select the
+    +++Security update+++. In the **Business unit** field, select the
     business unit the role belongs to. Select **Save**.
 
     ![](./media/image19.png)
@@ -187,7 +187,7 @@ multiple times a month
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image21.png)
 
-2.  Click on **Users + permissions - \> Users**.
+2.  Click on **Users + permissions > Users**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image22.png)
 
@@ -209,6 +209,7 @@ multiple times a month
     creation and management to admins from the Power Platform Admin Center.
     You also learnt how to create security roles, give the privileges and
     assign it to an administrative user.
+
 
 
 
