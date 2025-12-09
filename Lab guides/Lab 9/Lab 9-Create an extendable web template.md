@@ -52,40 +52,40 @@ render a page but will instead be inserted into another template.
 
     - **Source** - Enter the following content:
 
-    '''
+      '''
 
-    {% fetchxml accounts %}
-    
-    <fetch>
-    
-    <entity name="account">
-    
-    <attribute name="name" />
-    
-    </entity>
-    
-    </fetch>
-    
-    {% endfetchxml %}
-    
-    {% if accounts.global_permission_granted %}
-    
-    <ul>
-    
-    {% for account in accounts.results.entities %}
-    
-    <li>{{ account.name }}</li>
-    
-    {%- endfor -%}
-    
-    </ul>
-    
-    {% else %}
-    
-    <div class="alert alert-warning">You do not have permissions to
-    access the directory.</div>
-    
-    {% endif %}
+        {% fetchxml accounts %}
+        
+        <fetch>
+        
+        <entity name="account">
+        
+        <attribute name="name" />
+        
+        </entity>
+        
+        </fetch>
+        
+        {% endfetchxml %}
+        
+        {% if accounts.global_permission_granted %}
+        
+        <ul>
+        
+        {% for account in accounts.results.entities %}
+        
+        <li>{{ account.name }}</li>
+        
+        {%- endfor -%}
+        
+        </ul>
+        
+        {% else %}
+        
+        <div class="alert alert-warning">You do not have permissions to
+        access the directory.</div>
+        
+        {% endif %}
 
     '''
 
@@ -264,5 +264,6 @@ Follow these steps to add table permissions.
 **Summary:** In this lab, you have learnt building and extending Liquid
 templates. You built a new page template that includes a side panel that
 lists all accounts in Dataverse.
+
 
 
