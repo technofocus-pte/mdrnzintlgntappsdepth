@@ -52,7 +52,7 @@ render a page but will instead be inserted into another template.
 
     - **Source** - Enter the following content:
 
-      '''
+      +++'''
 
         {% fetchxml accounts %}
         
@@ -87,7 +87,7 @@ render a page but will instead be inserted into another template.
         
         {% endif %}
 
-    '''
+    '''+++
 
     ![A screenshot of a computer Description automatically generated](./media/image6.png)
 
@@ -264,6 +264,7 @@ Follow these steps to add table permissions.
 **Summary:** In this lab, you have learnt building and extending Liquid
 templates. You built a new page template that includes a side panel that
 lists all accounts in Dataverse.
+
 
 
 
