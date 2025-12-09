@@ -11,12 +11,12 @@ to sign into AI Builder, choose document types, define fields to
 extract, upload documents for training, and finally, integrate the
 trained model with Power Automate and Power Apps.
 
-**Exercise 1: Create your first model**
+## **Exercise 1: Create your first model**
 
-**Task 1: Sign in to AI Builder**
+### **Task 1: Sign in to AI Builder**
 
 1.  Navigate to power automate with the help of
-    +++\*\*[*https://make.powerautomate.com/\*\*+++*](https://make.powerautomate.com/**+++) and
+    +++https://make.powerautomate.com/+++ and
     if asked, sign in using office 365 admin tenant account.
 
 2.  Select the environment **Dev one** from the top bar.
@@ -36,7 +36,7 @@ trained model with Power Automate and Power Apps.
 
     ![](./media/image4.png)
 
-**Task 2: Choose document type**
+### **Task 2: Choose document type**
 
 1.  When choosing the document type, you have three options:
 
@@ -61,7 +61,7 @@ trained model with Power Automate and Power Apps.
 
     ![](./media/image5.png)
 
-**Task 3: Choose information to extract**
+### **Task 3: Choose information to extract**
 
     Define the fields and tables you want your model to extract. We'll extract the following fields:
 
@@ -79,7 +79,7 @@ trained model with Power Automate and Power Apps.
 
     ![](./media/image7.png)
 
-2.  Enter the text field name as +++**Invoice Number**+++ and
+2.  Enter the text field name as +++Invoice Number+++ and
     select **Done**. Repeat this step for +++Customer ID+++.
 
     ![](./media/image8.png)
@@ -90,7 +90,7 @@ trained model with Power Automate and Power Apps.
     
     ![](./media/image10.png)
 
-4.  Enter the number field name as +++**Total amount**+++ and
+4.  Enter the number field name as +++Total amount+++ and
     select **Done**.
 
     ![](./media/image11.png)
@@ -101,7 +101,7 @@ trained model with Power Automate and Power Apps.
 
     ![](./media/image13.png)
 
-6.  Enter the date field name as +++**Due Date**+++ and select **Done**.
+6.  Enter the date field name as +++Due Date+++ and select **Done**.
 
     ![](./media/image14.png)
 
@@ -115,7 +115,7 @@ trained model with Power Automate and Power Apps.
 
     ![](./media/image16.png)
 
-9.  Define the table name as +++**Items**+++.
+9.  Define the table name as +++Items+++.
 
 10. Select Column1, Click on **Edit column** and rename it to
     +++Description+++, then click **Confirm**.
@@ -133,7 +133,7 @@ trained model with Power Automate and Power Apps.
 
     ![](./media/image20.png)
 
-**Task 4: Define collections and upload documents**
+### **Task 4: Define collections and upload documents**
 
 Define collections and upload documents. A collection groups documents
 with the same layout. Create a collection for each unique layout your
@@ -328,9 +328,9 @@ red dot at the top corner will disappear.
 
     ![](./media/image53.png)
 
-**Exercise 2: Use your model**
+## **Exercise 2: Use your model**
 
-**Task 1: Quick test**
+### **Task 1: Quick test**
 
 1.  After your model completes training, Click on the model name to view
     important details about your newly trained model on a details page.
@@ -354,14 +354,14 @@ red dot at the top corner will disappear.
 
     ![](./media/image57.png)
 
-**Task 2: Publish your model**
+### **Task 2: Publish your model**
 
 1.  Your model can't be used until you publish it. If you're satisfied
     with your model, select **Publish** to make it available for use.
 
     ![](./media/image58.png)
 
-**Task 3: Use your model in Power Apps**
+### **Task 3: Use your model in Power Apps**
 
     Now that your model is published, you can use your Document processing
     model in a canvas app. A special component is available for you to add
@@ -369,7 +369,7 @@ red dot at the top corner will disappear.
     Document processing mode.
 
 1.  From the 
-    +++[*https://make.powerautomate.com/+++*](https://make.powerautomate.com/+++),
+    +++https://make.powerautomate.com/+++,
     select **AI Hub**, and select your model under Recently Created.
 
     ![](./media/image59.png)
@@ -447,6 +447,7 @@ app in Power Apps. In this lab You learnt how AI models can be used to
 automate document processing and streamline business tasks, providing
 practical experience in leveraging AI Builder for intelligent
 automation.
+
 
 
 
