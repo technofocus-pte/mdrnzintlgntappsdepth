@@ -80,7 +80,7 @@ role and assign table permissions.
 
 3.  Select **New**.
 
-4.  In the **Name** box, enter **Web API User** (or any name that best
+4.  In the **Name** box, enter +++Web API User+++ (or any name that best
     reflects the role of the user accessing this functionality).
 
 5.  In the **Website** list, select your website record.
@@ -89,7 +89,7 @@ role and assign table permissions.
 
 6.  Select **Save**.
 
-**Task 3: Create table permissions**
+### **Task 3: Create table permissions**
 
 1.  Go back to the **Power Pages design studio**.
 
@@ -118,7 +118,7 @@ role and assign table permissions.
 
     ![](./media/image10.png)
 
-**Task 4: Add contacts to the web role**
+### **Task 4: Add contacts to the web role**
 
 1.  From the left navigation pane, select **More commands**.
 
@@ -138,11 +138,11 @@ role and assign table permissions.
 
     ![](./media/image11.png)
 
-**Step 5: Create a webpage**
+### **Task 5: Create a webpage**
 
-    Now that you've enabled the Web API and configured user permissions,
-    create a webpage with sample code to view, edit, create, and delete
-    records.
+Now that you've enabled the Web API and configured user permissions,
+create a webpage with sample code to view, edit, create, and delete
+records.
 
 1.  Go back to the **Power Pages Design Studio**.
 
@@ -169,10 +169,9 @@ role and assign table permissions.
 8.  Copy the following sample code snippet and paste it in between
     the <div></div> tags of the page section.
 
-    **Sample code for Web API 
-    demonstration**
+    **Sample code for Web API  demonstration**
 
- '''
+	 '''
 
     <style>
     
@@ -742,7 +741,8 @@ role and assign table permissions.
     
     <div id="dataTable"></div>
 
-  '''
+	  '''
+
     ![Paste code.](./media/image15.png)
 
 10.  Click **CTRL-S** to save the code. Close the **Visual Studio Code**
@@ -765,6 +765,7 @@ role and assign table permissions.
 16. New sample contact is now added to the list.
 
     ![](./media/image17.png)
+
 
 
 
