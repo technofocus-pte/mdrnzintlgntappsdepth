@@ -99,7 +99,7 @@ role and assign table permissions.
 
 4.  Select **New permission**.
 
-5.  In the **Name** box, enter **Contact Table Permission**.
+5.  In the **Name** box, enter +++Contact Table Permission+++.
 
 6.  In the **Table Name** list, select **Contact.**
 
@@ -114,7 +114,7 @@ role and assign table permissions.
 
     ![](./media/image8.png)
 
-11. Select Save to confirm the permission settings.
+11. Select **Save** to confirm the permission settings.
 
     ![](./media/image10.png)
 
@@ -128,11 +128,11 @@ role and assign table permissions.
 
 4.  Select **+New**.
 
-5.  Enter First Name - **Jessica**.
+5.  Enter First Name - +++Jessica+++.
 
-6.  Enter Last Name - **Liu**.
+6.  Enter Last Name - +++Liu+++.
 
-7.  Enter Email - [**jessica@example.com**](mailto:jessica@example.com).
+7.  Enter Email - +++jessica@example.com+++
 
 8.  Select **Save & Close.**
 
@@ -153,7 +153,7 @@ role and assign table permissions.
 
     ![](./media/image12.png)
 
-4.  In the **Name** box, enter **WebAPI** and select **Start from
+4.  In the **Name** box, enter +++WebAPI+++ and select **Start from
     blank** layout.
 
 5.  Select **Add**.
@@ -167,16 +167,16 @@ role and assign table permissions.
     ![](./media/image14.png)
 
 8.  Copy the following sample code snippet and paste it in between
-    the \<div\>\</div\> tags of the page section.
+    the <div></div> tags of the page section.
 
     **Sample code for Web API 
     demonstration**
 
- ` ` 
+ '''
 
-    \<style\>
+    <style>
     
-    \#processingMsg {
+    #processingMsg {
     
     width: 150px;
     
@@ -204,7 +204,7 @@ role and assign table permissions.
     
     }
     
-    table td\[data-attribute\] .glyphicon-pencil {
+    table td[data-attribute] .glyphicon-pencil {
     
     margin-left: 5px;
     
@@ -212,15 +212,15 @@ role and assign table permissions.
     
     }
     
-    table td\[data-attribute\]:hover .glyphicon-pencil {
+    table td[data-attribute]:hover .glyphicon-pencil {
     
     opacity: 0.7;
     
     }
     
-    \</style\>
+    </style>
     
-    \<script\>
+    <script>
     
     $(function() {
     
@@ -228,21 +228,21 @@ role and assign table permissions.
     
     (function(webapi, $) {
     
-    function safeAjax(ajaxOptions) {
+    	function safeAjax(ajaxOptions) {
     
-    var deferredAjax = $.Deferred();
+    		var deferredAjax = $.Deferred();
     
-    shell.getTokenDeferred().done(function(token) {
+    		shell.getTokenDeferred().done(function(token) {
     
-    // Add headers for ajax
+    		// Add headers for ajax
     
-    if (!ajaxOptions.headers) {
+   			 if (!ajaxOptions.headers) {
     
-    $.extend(ajaxOptions, {
+  			  $.extend(ajaxOptions, {
     
-    headers: {
+  			  headers: {
     
-    "\_\_RequestVerificationToken": token
+    "_RequestVerificationToken": token
     
     }
     
@@ -250,7 +250,7 @@ role and assign table permissions.
     
     } else {
     
-    ajaxOptions.headers\["\_\_RequestVerificationToken"\] = token;
+    ajaxOptions.headers\["_RequestVerificationToken"] = token;
     
     }
     
@@ -264,8 +264,7 @@ role and assign table permissions.
 
     }).fail(function() {
     
-    deferredAjax.rejectWith(this, arguments); // On token failure pass the
-    token ajax and args
+    deferredAjax.rejectWith(this, arguments); // On token failure pass the token ajax and args
     
     });
     
@@ -281,43 +280,43 @@ role and assign table permissions.
     
     var notificationMsg = (function() {
     
-    var $processingMsgEl = $('#processingMsg'),
+    	var $processingMsgEl = $('#processingMsg'),
     
-    \_msg = 'Processing...',
+    	_msg = 'Processing...',
     
-    \_stack = 0,
+    	_stack = 0,
     
-    \_endTimeout;
+   		 _endTimeout;
     
     return {
     
-    show: function(msg) {
+    	show: function(msg) {
     
-    $processingMsgEl.text(msg || \_msg);
+    	$processingMsgEl.text(msg || _msg);
     
-    if (\_stack === 0) {
+    	if (_stack === 0) {
     
-    clearTimeout(\_endTimeout);
+   		 clearTimeout(_endTimeout);
 
-    $processingMsgEl.show();
+    	 $processingMsgEl.show();
     
-    }
+    	}
     
-    \_stack++;
+    _stack++;
     
     },
     
     hide: function() {
     
-    \_stack--;
+    _stack--;
     
-    if (\_stack \<= 0) {
+    if (_stack <= 0) {
     
-    \_stack = 0;
+    _stack = 0;
     
-    clearTimeout(\_endTimeout);
+    clearTimeout(_endTimeout);
     
-    \_endTimeout = setTimeout(function() {
+    _endTimeout = setTimeout(function() {
     
     $processingMsgEl.hide();
     
@@ -335,64 +334,63 @@ role and assign table permissions.
     
     var webAPIExampleTable = (function() {
     
-    var trTpl = '\<% \_.forEach(data, function(data){ %\>' +
+    var trTpl = '<% _.forEach(data, function(data){ %>' +
     
-    '\<tr data-id="\<%=data.id%\>" data-name="\<%=data.fullname%\>"\>' +
+    '<tr data-id="<%=data.id%>" data-name="<%=data.fullname%>">' +
     
-    '\<% \_.forEach(columns, function(col){ %\>' +
+    '<% _.forEach(columns, function(col){ %>' +
     
-    '\<td data-attribute="\<%=col.name%\>" data-label="\<%=col.label%\>"
-    data-value="\<%=data\[col.name\]%\>"\>' +
+    '<td data-attribute="<%=col.name%>" data-label="<%=col.label%>"
+    data-value="<%=data\[col.name]%>">' +
     
-    '\<%-data\[col.name\]%\>\<i class="glyphicon
-    glyphicon-pencil"\>\</i\>' +
+    '<%-data[col.name]%><i class="glyphicon glyphicon-pencil"></i>' +
     
-    '\</td\>' +
+    '</td>' +
     
-    '\<% }) %\>' +
+    '<% }) %>' +
     
-    '\<td\>' +
+    '<td>' +
     
-    '\<button class="btn btn-default delete" type="submit"\>\<i
+    '<button class="btn btn-default delete" type="submit"><i
     class="glyphicon glyphicon-trash"
-    aria-hidden="true"\>\</i\>\</button\>' +
+    aria-hidden="true"></i>\<button>' +
     
-    '\</td\>' +
+    '</td>' +
     
-    '\</tr\>' +
+    '</tr>' +
     
-    '\<% }) %\>';
+    '<% }) %>';
     
-    var tableTpl = '\<table class="table table-hover"\>' +
+    var tableTpl = '<table class="table table-hover">' +
     
-    '\<thead\>' +
+    '<thead>' +
     
-    '\<tr\>' +
+    '<tr>' +
     
-    '\<% \_.forEach(columns, function(col){ %\>' +
+    '<% _.forEach(columns, function(col){ %>' +
     
-    '\<th\>\<%=col.label%\>\</th\>' +
+    '<th><%=col.label%></th>' +
     
-    '\<% }) %\>' +
+    '<% }) %>' +
     
-    '\<th\>' +
+    '<th>' +
     
-    '\<button class="btn btn-default add" type="submit"\>' +
+    '<button class="btn btn-default add" type="submit">' +
     
-    '\<i class="glyphicon glyphicon-plus" aria-hidden="true"\>\</i\> Add
+    '<i class="glyphicon glyphicon-plus" aria-hidden="true"></i> Add
     Sample Record' +
     
-    '\</button\>' +
+    '</button>' +
     
-    '\</th\>' +
+    '</th>' +
     
-    '\</tr\>' +
+    '</tr>' +
     
-    '\</thead\>' +
+    '</thead>' +
     
-    '\<tbody\>' + trTpl + '\</tbody\>' +
+    '<tbody>' + trTpl + '</tbody>' +
     
-    '\</table\>';
+    '</table>';
     
  	function getDataObject(rowEl) {
 
@@ -414,7 +412,7 @@ role and assign table permissions.
 
  	if (key) {
 
-    attrObj\[key\] = $el.attr('data-value');
+    attrObj[key] = $el.attr('data-value');
 
      }
 
@@ -434,7 +432,7 @@ role and assign table permissions.
 
      $.each(config.columns, function(i, col) {
 
-     var $el = $row.find('td\[data-attribute="' + col.name + '"\]');
+     var $el = $row.find('td[data-attribute="' + col.name + '"]');
 
      $el.on('click', $.proxy(col.handler, $el, col, dataObj));
 
@@ -474,7 +472,7 @@ role and assign table permissions.
     
      me.render = function(el) {
     
-     $table = $(el).html(\_.template(tableTpl)({
+     $table = $(el).html(_.template(tableTpl)({
     
      columns: columns,
     
@@ -496,11 +494,11 @@ role and assign table permissions.
     
      me.addRecord = function(record) {
     
-     $table.find('tbody tr:first').before(\_.template(trTpl)({
+     $table.find('tbody tr:first').before(_.template(trTpl)({
     
      columns: columns,
     
-     data: \[record\]
+     data: [record]
     
      }));
     
@@ -510,14 +508,14 @@ role and assign table permissions.
     
      me.updateRecord = function(attributeName, newValue, record) {
     
-     $table.find('tr\[data-id="' + record.id + '"\] td\[data-attribute="' +
-     attributeName + '"\]').text(newValue);
+     $table.find('tr[data-id="' + record.id + '"] td[data-attribute="' +
+     attributeName + '"]').text(newValue);
     
      }
     
      me.removeRecord = function(record) {
     
-     $table.find('tr\[data-id="' + record.id + '"\]').fadeTo("slow", 0.7,
+     $table.find('tr[data-id="' + record.id + '"]').fadeTo("slow", 0.7,
      function() {
     
      $(this).remove();
@@ -561,7 +559,7 @@ role and assign table permissions.
      type: "GET",
     
      url:
-     "/\_api/contacts?$select=fullname,firstname,lastname,emailaddress1,telephone1",
+     "/_api/contacts?$select=fullname,firstname,lastname,emailaddress1,telephone1",
     
      contentType: "application/json"
     
@@ -577,7 +575,7 @@ role and assign table permissions.
      
      firstname: "Willie",
     
-     lastname: "Huff" + \_.random(100, 999),
+     lastname: "Huff" + _.random(100, 999),
     
      emailaddress1: "Willie.Huff@contoso.com",
     
@@ -589,7 +587,7 @@ role and assign table permissions.
     
      type: "POST",
     
-     url: "/\_api/contacts",
+     url: "/_api/contacts",
     
      contentType: "application/json",
     
@@ -613,8 +611,7 @@ role and assign table permissions.
     
      function deleteRecord(recordObj) {
     
-     var response = confirm("Are you sure, you want to delete \\" +
-     recordObj.name + "\\ ?");
+     var response = confirm("Are you sure, you want to delete \"" + recordObj.name + "\" ?");
     
      if (response == true) {
     
@@ -622,7 +619,7 @@ role and assign table permissions.
     
      type: "DELETE",
     
-     url: "/\_api/contacts(" + recordObj.id + ")",
+     url: "/_api/contacts(" + recordObj.id + ")",
     
      contentType: "application/json",
     
@@ -644,9 +641,9 @@ role and assign table permissions.
         
      var attributeName = col.name,
     
-     value = recordObj\[attributeName\],
+     value = recordObj[attributeName],
     
-     newValue = prompt("Please enter \\" + col.label + "\\", value);
+     newValue = prompt("Please enter \"" + col.label + "\"", value);
     
      if (newValue != null && newValue !== value) {
     
@@ -654,7 +651,7 @@ role and assign table permissions.
     
      type: "PUT",
     
-     url: "/\_api/contacts(" + recordObj.id + ")/" + attributeName,
+     url: "/_api/contacts(" + recordObj.id + ")/" + attributeName,
     
      contentType: "application/json",
     
@@ -680,7 +677,7 @@ role and assign table permissions.
     
      var table = new webAPIExampleTable({
     
-     columns: \[{
+     columns: [{
     
      name: 'firstname',
     
@@ -712,9 +709,9 @@ role and assign table permissions.
     
     handler: updateRecordAttribute
     
-    }\],
+    }],
     
-    data: \[\],
+    data: [],
     
     addHandler: addSampleRecord,
     
@@ -724,7 +721,7 @@ role and assign table permissions.
     
     loadRecords().done(function(data) {
     
-    table.data = \_.map(data.value, function(record){
+    table.data = _.map(data.value, function(record){
     
     record.id = record.contactid;
     
@@ -738,16 +735,15 @@ role and assign table permissions.
     
     });
     
-    \</script\>
+    </script>
     
-    \<div id="processingMsg" class="alert alert-warning"
-    role="alert"\>\</div\>
+    <div id="processingMsg" class="alert alert-warning"
+    role="alert"></div>
     
-    \<div id="dataTable"\>\</div\>
+    <div id="dataTable"></div>
 
-  ` ` 
-    
-![Paste code.](./media/image15.png)
+  '''
+    ![Paste code.](./media/image15.png)
 
 10.  Click **CTRL-S** to save the code. Close the **Visual Studio Code**
     tab.
@@ -769,6 +765,7 @@ role and assign table permissions.
 16. New sample contact is now added to the list.
 
     ![](./media/image17.png)
+
 
 
 
