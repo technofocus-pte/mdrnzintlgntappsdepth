@@ -13,7 +13,7 @@ forms, and data connections apps.
 ### **Task 1: Create a site with the help of AI**
 
 1.  Go to Power Pages using
-    +++<https://make.powerpages.microsoft.com/>+++. Select Get started
+    +++https://make.powerpages.microsoft.com/+++. Select Get started
     and ensure that you are in **Dev One** environment.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image1.png)
@@ -25,13 +25,12 @@ forms, and data connections apps.
 3.  Enter the given description to create a site and then click on the
     **generate** icon.
 
-    +++**Create a site for customers to find financial advisors at a bank
-    based on their qualifications, and areas of expertise**+++
+    +++Create a site for customers to find financial advisors at a bank  based on their qualifications, and areas of expertise+++
     
     ![A screenshot of a computer Description automatically generated](./media/image3.png)
 
 4.  Copilot generates a site name and a web address based on your
-    description. In this case, the site name is ‘**Advisor Connect’**.
+    description. In this case, the site name is **Advisor Connect**.
     Keep the generated site name and address and then select **Next**.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image4.png)
@@ -76,7 +75,7 @@ To use Copilot to generate a webpage:
     
     Sample descriptions:
     
-    [**Create a Thank you for visiting our site webpage**](urn:gd:lg:a:send-vm-keys)
+    +++Create a Thank you for visiting our site webpage+++
     
     ![](./media/image9.png)
     
@@ -98,7 +97,7 @@ To use Copilot to generate a webpage:
     ![](./media/image12.png)
 
 2.  Hover the mouse over first section of the Routes webpage and then
-    click on **+ Add a section** \> **1Column**.
+    click on **+ Add a section** > **1Column**.
 
     ![](./media/image13.png)
 
@@ -111,8 +110,7 @@ To use Copilot to generate a webpage:
     your description to Copilot, press the Enter key or select the paper
     airplane icon in the lower-right corner of the text box.
 
-    **Example**: Create a form for collecting suggestions and
-    addition/deletion of areas of expertise of the financial advisor
+    **Example**: +++Create a form for collecting suggestions and addition/deletion of areas of expertise of the financial         advisor+++
     
     ![](./media/image15.png)
 
@@ -132,7 +130,7 @@ To use Copilot to generate a webpage:
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image18.png)
 
 2.  Hover the mouse over the page and select **+Add a
-    section** \> **1Column** under Our Services section.
+    section** > **1Column** under Our Services section.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image19.png)
 
@@ -145,7 +143,7 @@ To use Copilot to generate a webpage:
     ![](./media/image21.png)
 
 5.  Describe the text that you want to Copilot to generate; for example,
-    " [**I want to describe the importance of a**](urn:gd:lg:a:send-vm-keys) **financial advisor**".
+    +++I want to describe the importance of a financial advisor+++.
     You can use up to 1,500 characters in your description. To send your
     description to Copilot, press the Enter key or select the paper airplane 
     icon in the lower-right corner of the text box.
@@ -222,6 +220,7 @@ of Copilot, how Copilot generates the HTML for the page with relevant
 text copy and images from the description. create a form and add AI
 generated text to the page. You also learnt how copilot generates text
 and creates a form based on the given description.
+
 
 
 
