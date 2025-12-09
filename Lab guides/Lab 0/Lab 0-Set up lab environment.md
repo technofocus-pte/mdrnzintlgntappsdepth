@@ -53,7 +53,56 @@ In this lab, you will acquire Power Apps trial license.You will also add users a
 
     ![](./media/image9.png)
 
-**Summary**: In this lab, you acquired Power Apps trial license.
+### **Task 2: Create a Microsoft 365 User** 
+
+1.  Navigate to the Microsoft 365 admin center using +++https://admin.microsoft.com+++.
+    
+2.	From the left navigation, select **Users** > **Active users** page, select **Add a user**.
+
+    ![](./media/image2.1.png)
+    
+3.	Enter the following information and then click on the **Next** button.
+   
+    **First name**: +++Brooke+++
+  	
+    **Last name**: +++Gray+++
+  	
+    **Display name**: +++Brooke Gray+++
+  	
+    **Username**: +++brookeg+++
+
+    ![](./media/image2.2.png)
+
+4.	On the **Assign product licenses** pane, select all the license check boxes and click **Next**.
+
+     ![](./media/image2.3.png)
+
+5.	Select **Next** on the **Optional settings** pane.
+
+     ![](./media/image2.4.png)
+
+6.	On the **Review and finish** pane, click on the **Finish adding** buttion.
+
+     ![](./media/image2.5.png)
+
+7.	Once done, click on the **Close** button.
+
+     ![](./media/image2.6.png)
+
+8.	Refresh the window to see the newly added user. On the Active users page, select all the new user then click on the          **More actions (…)** > **Reset password**.
+
+     ![](./media/image2.7.png)
+
+9.	To reset the password for the user, **uncheck all check boxes** and enter password as : +++Pa$$w01rd@124+++ and then         click on the **Reset password** button.
+
+     ![](./media/image2.8.png)
+
+10.	On the **Password has been reset** pane, click on the **Close** button.
+   
+     ![](./media/image2.9.png)
+   	
+**Summary**: In this lab, you acquired Power Apps trial license and also added a user from the Microsoft 365 admin center.
+
 
 
 
