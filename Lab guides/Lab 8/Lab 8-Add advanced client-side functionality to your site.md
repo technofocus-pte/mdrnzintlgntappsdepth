@@ -249,7 +249,7 @@ records.
 	    
 	    } else {
 	    
-	    ajaxOptions.headers\["_RequestVerificationToken"] = token;
+	    ajaxOptions.headers["_RequestVerificationToken"] = token;
 	    
 	    }
 	    
@@ -340,7 +340,7 @@ records.
 	    '<% _.forEach(columns, function(col){ %>' +
 	    
 	    '<td data-attribute="<%=col.name%>" data-label="<%=col.label%>"
-	    data-value="<%=data\[col.name]%>">' +
+	    data-value="<%=data[col.name]%>">' +
 	    
 	    '<%-data[col.name]%><i class="glyphicon glyphicon-pencil"></i>' +
 	    
@@ -352,7 +352,7 @@ records.
 	    
 	    '<button class="btn btn-default delete" type="submit"><i
 	    class="glyphicon glyphicon-trash"
-	    aria-hidden="true"></i>\<button>' +
+	    aria-hidden="true"></i></button>' +
 	    
 	    '</td>' +
 	    
@@ -765,6 +765,7 @@ records.
 16. New sample contact is now added to the list.
 
     ![](./media/image17.png)
+
 
 
 
