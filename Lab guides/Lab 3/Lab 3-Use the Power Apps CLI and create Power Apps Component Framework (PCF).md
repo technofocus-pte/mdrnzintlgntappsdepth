@@ -65,7 +65,7 @@ component.
     ![A screen shot of a computer AI-generated content may be incorrect.](./media/image12.png)
 
 8.  Navigate to Power Apps maker portal
-    using +++[**https://make.powerapps.com/**]+++ and
+    using +++https://make.powerapps.com/+++ and
     make sure you have the **Dev One** environment selected.
 
 9.  Go to **Home page**, from the upper right corner of the screen,
@@ -127,7 +127,7 @@ component.
 
 4.  Run the command below to initialize the component project.
 
-    +++[**pac pcf init --namespace lab --name FirstControl --template field**]+++
+    +++**pac pcf init --namespace lab --name FirstControl --template field**+++
 
     ![A screen shot of a computer Description automatically generated](./media/image23.png)
 
@@ -221,7 +221,7 @@ component.
 
     ![A screenshot of a computer program Description automatically generated](./media/image36.png)
 
-18. Type **Y** and \[ENTER\].
+18. Type **Y** and ENTER.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image37.png)
 
@@ -229,12 +229,12 @@ component.
 
     +++pac solution list+++
 
-![A screenshot of a computer Description automatically generated](./media/image38.png)
+    ![A screenshot of a computer Description automatically generated](./media/image38.png)
 
 20. These are the current solutions that are in your environment. The
     next step will add one for the component.
 
- ![A screenshot of a computer Description automatically generated](./media/image38.png)
+     ![A screenshot of a computer Description automatically generated](./media/image38.png)
 
 21. Type the following push command to push our control to the
     environment.
@@ -246,12 +246,12 @@ component.
 **Task 3: Use the component in an app**
 
 1.  Navigate to the Microsoft Power Platform Admin Center using
-    +++\*\*[*https://admin.powerplatform.microsoft.com/home\*\*+++*](https://admin.powerplatform.microsoft.com/home**+++).
+    +++https://admin.powerplatform.microsoft.com/home+++.
 
 2.  Close the welcome window if appears.
 
 3.  From the left navigation pane,
-    select **Manage** \> **Environments** and then select the **Dev
+    select **Manage** > **Environments** and then select the **Dev
     One** environment you're using for the lab.
 
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image40.png)
@@ -274,7 +274,7 @@ component.
     ![A screenshot of a computer AI-generated content may be incorrect.](./media/image44.png)
 
 8.  Navigate to Power Apps maker portal using
-    +++\*\*[*https://make.powerapps.com/\*\*+++*](https://make.powerapps.com/**+++) and
+    +++https://make.powerapps.com/+++ and
     make sure you are in the correct environment i.e. **Dev One**.
 
     ![A screenshot of a computer Description automatically generated](./media/image45.png)
@@ -363,5 +363,6 @@ component and used it in a canvas app. Power Apps component framework
 creates code components for model-driven and canvas apps. These code
 components can be used to enhance the user experience for users working
 with data on forms, views, dashboards, and canvas app screens.
+
 
 
