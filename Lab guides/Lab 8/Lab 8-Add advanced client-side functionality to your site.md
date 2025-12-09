@@ -169,6 +169,8 @@ records.
 8.  Copy the following sample code snippet and paste it in between
     the <div></div> tags of the page section.
 
+	**Note**: If you find any extra characters causing errors in the code, remove them.
+
     **Sample code for Web API  demonstration**
 
 	``` 
@@ -765,6 +767,7 @@ records.
 16. New sample contact is now added to the list.
 
     ![](./media/image17.png)
+
 
 
 
