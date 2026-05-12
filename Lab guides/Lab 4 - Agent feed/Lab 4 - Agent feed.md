@@ -28,7 +28,7 @@ agent actions using the Agent feed in Power Apps.
 
      **Prompt**:
        ```
-        I need to manage reimbursement claims in a simple way. Employees can submit reimbursement claims for eligible personal travel expenses incurred in line with company policies.+++
+        I need to manage reimbursement claims in a simple way. Employees can submit reimbursement claims for eligible personal travel expenses incurred in line with company policies.
       
      Requirements:
 
