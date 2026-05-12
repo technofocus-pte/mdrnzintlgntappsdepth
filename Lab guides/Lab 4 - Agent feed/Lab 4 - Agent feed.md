@@ -26,9 +26,10 @@ agent actions using the Agent feed in Power Apps.
 
 5.  Enter the given prompt in the text box and then select **Generate**.
 
-
-     **Prompt**: +++I need to manage reimbursement claims in a simple way. Employees can submit reimbursement claims for eligible personal travel expenses incurred in line with company policies.+++
-      ```
+     **Prompt**:
+       ```
+        I need to manage reimbursement claims in a simple way. Employees can submit reimbursement claims for eligible personal travel expenses incurred in line with company policies.+++
+      
      Requirements:
 
     - A single app for managing reimbursement claims.
