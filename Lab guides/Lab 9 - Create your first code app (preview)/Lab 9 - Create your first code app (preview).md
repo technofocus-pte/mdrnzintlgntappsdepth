@@ -30,8 +30,7 @@
 
      ![](./media/image5.png)
 
-8.  Navigate to Power Apps maker portal using
-    +++https://make.powerapps.com/+++) and
+8.  Navigate to Power Apps maker portal using +++https://make.powerapps.com/+++ and
     make sure you are in the correct environment, i.e., **Dev One**.
 
      ![](./media/image6.png)
