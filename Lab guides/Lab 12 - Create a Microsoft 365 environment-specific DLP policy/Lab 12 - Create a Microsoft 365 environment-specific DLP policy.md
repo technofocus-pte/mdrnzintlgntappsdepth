@@ -12,6 +12,7 @@
      ![](./media/image1.png)
 
 3.  On the Set up the basics pane, enter the given details.
+
      **First name**: Brooke
     
      **Last name**: Gray
@@ -160,49 +161,49 @@ Power Platform admin center**
 
      ![](./media/image26.png)
 
-1.  Search for **Dataverse**, select **Microsoft Dataverse**, and
+5.  Search for **Dataverse**, select **Microsoft Dataverse**, and
     click **Move to Business**.  Choose carefully, you may have to
     expand the Name column to differentiate between connectors in your
     search results.
 
      ![](./media/image27.png)
 
-2.  Search for **SharePoint**, select **SharePoint,** and click **Move
+6.  Search for **SharePoint**, select **SharePoint,** and click **Move
     to Business**.
 
      ![](./media/image28.png)
 
-3.  Search for **Outlook**, select **Office 365 Outlook,** and
+7.  Search for **Outlook**, select **Office 365 Outlook,** and
     click **Move to Business**.
 
      ![](./media/image29.png)
 
-4.  Select the **Business** tab and you should now have three connectors
+8.  Select the **Business** tab and you should now have three connectors
     moved to Business. Click **Next**.
 
      ![](./media/image30.png)
 
-5.  Do not add any connectors and click **Next**.
+9.  Do not add any connectors and click **Next**.
 
      ![](./media/image31.png)
 
-6.  On the **Define Scope**, select **Add multiple environments** and then click **Next.**
+10.  On the **Define Scope**, select **Add multiple environments** and then click **Next.**
 
      ![](./media/image32.png)
 
-7.  Select your **Test** trial environment and then select **+Add to policy**.
+11.  Select your **Test** trial environment and then select **+Add to policy**.
 
      ![](./media/image33.png)
 
-8.  Select **Added to policy** tab and then click **Next**.
+12.  Select **Added to policy** tab and then click **Next**.
 
      ![](./media/image34.png)
 
-9.  **Review** the policy and then select **Create policy**.
+13.  **Review** the policy and then select **Create policy**.
 
      ![](./media/image35.png)
 
-10. Your **Policy** has been created.
+14. Your **Policy** has been created.
 
      ![](./media/image36.png)
 
