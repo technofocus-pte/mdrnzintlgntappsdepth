@@ -1,4 +1,4 @@
-**Lab 7 - Install and use developer tools**
+# **Lab 7 - Install and use developer tools**
 
 **Objective:** In this lab, you will learn to install some of the
 developer tools from NuGet.
