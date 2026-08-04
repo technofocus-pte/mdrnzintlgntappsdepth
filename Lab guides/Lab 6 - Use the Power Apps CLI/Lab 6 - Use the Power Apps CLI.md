@@ -1,3 +1,14 @@
+---
+lab:
+  title: 'Lab 6: Use the Power Apps CLI and create a Power Apps Component Framework (PCF)'
+  description: +++this.label = document.createElement("input");+++
+  duration: 130 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Power Apps
+---
+
 # **Lab 6: Use the Power Apps CLI and create a Power Apps Component Framework (PCF)**
 
 **Objective:** In this lab, you will learn to install the Power Platform
