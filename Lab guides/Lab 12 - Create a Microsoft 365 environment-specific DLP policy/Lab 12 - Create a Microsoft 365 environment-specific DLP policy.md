@@ -1,3 +1,15 @@
+---
+lab:
+  title: Lab 12 - Create a Microsoft 365 environment-specific Data Loss Prevention policy
+  description: that you created. As a result, your flow will be disabled, and it can't be enabled while it conflicts with any DLP policies. In this specific example, it's disabled because you have included an MSN Weather connector in a flow that also contains an Office 365 Outlook connector. If you want this flow to run, you can either add the MSN Weather connector to the Business data only data group in your Office 365 DLP policy that you previously created, or you can remove the Office 365 Outlook connector from the Business data only data group.
+  duration: 128 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft 365
+    - Office 365
+---
+
 # **Lab 12 - Create a Microsoft 365 environment-specific Data Loss Prevention policy**
 
 ## **Exercise 1: Control user access to environments: security groups and licenses**
