@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 9 - Create your first code app (preview)
+  description: +++pac code init --displayname MyFirstCodeApp+++
+  duration: 58 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 9 - Create your first code app (preview)**
 
 ## **Exercise 1: Enable code apps on a Power Platform environment**
