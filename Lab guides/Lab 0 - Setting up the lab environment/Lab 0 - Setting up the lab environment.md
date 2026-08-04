@@ -1,3 +1,12 @@
+---
+lab:
+  title: 'Lab 0: Setting up the lab environment'
+  description: environment – Dev One, which has been created for you.
+  duration: 122 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 0: Setting up the lab environment**
 
 **Objective:** In this lab, you will acquire a Power Apps trial license
