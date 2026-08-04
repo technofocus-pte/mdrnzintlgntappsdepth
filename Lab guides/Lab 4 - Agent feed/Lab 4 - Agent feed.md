@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 4 - Add an agent to a model-driven app and supervise it with Agent feed (preview)
+  description: of the Agent is Travel Claim Reviewer) and then select the + icon to create the agent.
+  duration: 146 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 4 - Add an agent to a model-driven app and supervise it with Agent feed (preview)**
 
 **Objective**: In this lab, you will learn to create an AI-powered claim
