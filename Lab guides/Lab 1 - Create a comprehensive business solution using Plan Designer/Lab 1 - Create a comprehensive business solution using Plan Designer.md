@@ -1,3 +1,12 @@
+---
+lab:
+  title: 'Lab 1: Create a comprehensive business solution using Plan Designer'
+  description: the name of the Canvas app is Showing Organizer) and then select the + icon to create the app.
+  duration: 114 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 1: Create a comprehensive business solution using Plan Designer**
 
 **Objective**: In this lab, you will use Copilot in Power Apps to design
