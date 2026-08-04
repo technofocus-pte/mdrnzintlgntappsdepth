@@ -1,3 +1,15 @@
+---
+lab:
+  title: 'Lab 8: Use client script to hide a form section in model-driven app using Visual Studio Code'
+  description: use an external authoring tool that provides features to specifically support editing JavaScript files, such as Notepad++, Visual Studio Code, or Microsoft Visual Studio. In this lab, you will use Notepad and Visual Studio Code.
+  duration: 142 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Visual Studio
+    - Visual Studio Code
+---
+
 # **Lab 8: Use client script to hide a form section in model-driven app using Visual Studio Code**
 
 **Objective:** In this lab, you will learn how to write client script
