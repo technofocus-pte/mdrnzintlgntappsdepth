@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 5 - Build an AI agent to automate your business process
+  description: the process you want to automate, and then select Next.
+  duration: 52 minutes
+  level: 100
+  islab: true
+---
+
 ## **Lab 5 - Build an AI agent to automate your business process**
 
 **Objective**: In this lab, you will create an AI agent from an existing
