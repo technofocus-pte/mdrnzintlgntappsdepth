@@ -1,8 +1,11 @@
 ---
 lab:
   title: 'Lab 1: Create a comprehensive business solution using Plan Designer'
-  description: the name of the Canvas app is Showing Organizer) and then select the + icon to create the app.
-  duration: 114 minutes
+  description: In this lab, you will create a structured plan
+that defines business requirements, processes, data tables, and
+technology components, and then generate a canvas app that surfaces and
+manages real estate showings.
+  duration: 20 minutes
   level: 100
   islab: true
 ---
