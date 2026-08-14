@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 10 - Create apps and data together using vibe (preview)
+  description: Create apps and data together using vibe
+  duration: 25 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 10 - Create apps and data together using vibe (preview)**
 
 ## **Exercise 1: Create an app**

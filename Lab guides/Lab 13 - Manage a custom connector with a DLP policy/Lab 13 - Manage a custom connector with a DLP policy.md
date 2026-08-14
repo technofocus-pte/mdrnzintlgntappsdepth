@@ -1,3 +1,15 @@
+---
+lab:
+  title: 'Lab 13: Manage a custom connector with a DLP policy'
+  description: The custom connector that you will deploy is a sample Office 365 Groups connector from Microsoft’s GitHub repository.
+  duration: 20 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - GitHub
+    - Office 365
+---
+
 # **Lab 13: Manage a custom connector with a DLP policy**
 
 **Objective**: In this lab, you will learn how to manage a custom

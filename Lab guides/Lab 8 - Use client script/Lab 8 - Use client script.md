@@ -1,3 +1,16 @@
+---
+lab:
+  title: 'Lab 8: Use client script to hide a form section in model-driven app using Visual Studio Code'
+  description: In this lab, you will learn how to write client script
+for the model-driven app and how to upload your code as a web resource.
+  duration: 40 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Visual Studio
+    - Visual Studio Code
+---
+
 # **Lab 8: Use client script to hide a form section in model-driven app using Visual Studio Code**
 
 **Objective:** In this lab, you will learn how to write client script

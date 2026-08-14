@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 9 - Create your first code app (preview)
+  description: Create your first code app (preview)
+  duration: 15 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 9 - Create your first code app (preview)**
 
 ## **Exercise 1: Enable code apps on a Power Platform environment**

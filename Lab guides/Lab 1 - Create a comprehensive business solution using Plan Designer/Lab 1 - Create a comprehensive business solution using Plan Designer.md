@@ -1,3 +1,15 @@
+---
+lab:
+  title: 'Lab 1: Create a comprehensive business solution using Plan Designer'
+  description: In this lab, you will create a structured plan
+that defines business requirements, processes, data tables, and
+technology components, and then generate a canvas app that surfaces and
+manages real estate showings.
+  duration: 20 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 1: Create a comprehensive business solution using Plan Designer**
 
 **Objective**: In this lab, you will use Copilot in Power Apps to design

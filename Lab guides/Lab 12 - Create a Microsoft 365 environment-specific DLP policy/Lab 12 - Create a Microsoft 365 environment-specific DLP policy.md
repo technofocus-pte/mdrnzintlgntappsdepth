@@ -1,3 +1,15 @@
+---
+lab:
+  title: Lab 12 - Create a Microsoft 365 environment-specific Data Loss Prevention policy
+  description: Create a Microsoft 365 environment-specific Data Loss Prevention policy
+  duration: 40 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft 365
+    - Office 365
+---
+
 # **Lab 12 - Create a Microsoft 365 environment-specific Data Loss Prevention policy**
 
 ## **Exercise 1: Control user access to environments: security groups and licenses**

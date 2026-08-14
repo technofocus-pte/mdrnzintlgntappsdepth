@@ -1,3 +1,13 @@
+---
+lab:
+  title: 'Lab 0: Setting up the lab environment'
+  description: In this lab, you will acquire a Power Apps trial license
+and create a team in Microsoft Teams.
+  duration: 15 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 0: Setting up the lab environment**
 
 **Objective:** In this lab, you will acquire a Power Apps trial license

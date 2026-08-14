@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 7 - Install and use developer tools
+  description: In this task, you'll use a Power Platform CLI to install tools.
+  duration: 15 minutes
+  level: 200
+  islab: true
+---
+
 # **Lab 7 - Install and use developer tools**
 
 **Objective:** In this lab, you will learn to install some of the

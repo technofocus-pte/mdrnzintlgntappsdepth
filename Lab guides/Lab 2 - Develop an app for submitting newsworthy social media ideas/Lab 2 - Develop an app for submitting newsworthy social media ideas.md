@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 2 - Develop an app for submitting newsworthy social media ideas
+  description: +++Make an app to have employees submit newsworthy social media ideas to the marketing department+++
+  duration: 25 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 2 - Develop an app for submitting newsworthy social media ideas**
 
 **Objective**: In this lab, you will learn to use Copilot to create a
