@@ -1,8 +1,8 @@
 ---
 lab:
   title: Lab 9 - Create your first code app (preview)
-  description: +++pac code init --displayname MyFirstCodeApp+++
-  duration: 58 minutes
+  description: Create your first code app (preview)
+  duration: 15 minutes
   level: 100
   islab: true
 ---
