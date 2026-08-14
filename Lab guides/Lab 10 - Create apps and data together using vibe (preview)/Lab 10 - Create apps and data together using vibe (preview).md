@@ -1,8 +1,8 @@
 ---
 lab:
   title: Lab 10 - Create apps and data together using vibe (preview)
-  description: not, click on the environment selector and select Dev One
-  duration: 66 minutes
+  description: Create apps and data together using vibe
+  duration: 25 minutes
   level: 100
   islab: true
 ---
