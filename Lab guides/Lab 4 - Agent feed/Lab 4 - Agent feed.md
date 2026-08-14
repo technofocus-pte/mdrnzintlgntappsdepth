@@ -1,7 +1,9 @@
 ---
 lab:
   title: Lab 4 - Add an agent to a model-driven app and supervise it with Agent feed (preview)
-  description: of the Agent is Travel Claim Reviewer) and then select the + icon to create the agent.
+  description: In this lab, you will learn to create an AI-powered claim
+management solution by using Copilot. You will also learn how to supervise and monitor
+agent actions using the Agent feed in Power Apps.
   duration: 40 minutes
   level: 200
   islab: true
