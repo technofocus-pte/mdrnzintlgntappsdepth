@@ -1,8 +1,11 @@
 ---
 lab:
   title: 'Lab 11: Create and manage an environment using Power Platform Admin Center'
-  description: at +++https://admin.powerplatform.microsoft.com+++ and sign in with your Office 365 tenant credentials.
-  duration: 82 minutes
+  description: In this lab, you will learn how to control who can create
+and manage environments, enable or disable Administration mode in the
+Power Platform Admin Center, create a custom security role, and assign
+it to an administrative user.
+  duration: 25 minutes
   level: 100
   islab: true
   primarytopics:
