@@ -2,7 +2,7 @@
 lab:
   title: Lab 3 - Build generative pages in Power Apps using Microsoft Dataverse
   description: +++Create a generative page for exploring courses with the following features.+++
-  duration: 92 minutes
+  duration: 20 minutes
   level: 100
   islab: true
   primarytopics:
